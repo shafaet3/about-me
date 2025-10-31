@@ -6,22 +6,26 @@ import { BiDownload } from 'react-icons/bi'
 import { FaCode } from 'react-icons/fa'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
-const Nav = () => {
-  
+type Props = {
+  openNav: () => void;
+}
+
+const Nav = ({ openNav }: Props) => {
+
   const [navBg, setNavBg] = useState(true)
-  
+
   useEffect(() => {
-    const handler = () =>{
-      if(window.scrollY < 90) setNavBg(false);
+    const handler = () => {
+      if (window.scrollY < 90) setNavBg(false);
     }
 
     window.addEventListener('scroll', handler);
-  
+
     return () => {
       window.removeEventListener('scroll', handler);
     }
   }, [])
-  
+
 
   return (
     <div className={`transition-all ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'} duration-200 h-[12vh] z-[10000] fixed w-full`}>
@@ -53,7 +57,9 @@ const Nav = () => {
             <BiDownload className='w-5 h-5' />
             <span>Download CV</span>
           </button>
-          <HiBars3BottomRight className='w-8 h-8 text-white lg:hidden cursor-pointer' />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className='w-8 h-8 text-white lg:hidden cursor-pointer' />
         </div>
 
       </div>
