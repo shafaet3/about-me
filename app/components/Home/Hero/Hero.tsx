@@ -1,17 +1,17 @@
 "use client"
 import Image from 'next/image'
-import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
 import Typewriter from 'typewriter-effect'
 import ParticlesHero from './ParticleBackground'
+import Link from "next/link";
 
 const Hero = () => {
     return (
-        <div className='relative h-screen flex items-center justify-center text-white overflow-hidden flex-col'>
+        <section id="hero" className='scroll-mt-24 relative h-screen flex items-center justify-center text-white overflow-hidden flex-col'>
             <ParticlesHero />
             <div className="relative z-10 flex flex-col items-center">
                 <Image
-                    src="/images/s1.jpg"
+                    src="/images/shafaet_.JPG"
                     alt="Hero Image"
                     width={150}
                     height={150}
@@ -40,12 +40,14 @@ const Hero = () => {
                         />
                     </span>
                 </h2>
-                <button data-aos="fade-up" data-aos-delay="600" className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
-                    <span>See my work</span>
-                    <BsArrowRight className='w-5 h-5 ml-2 inline-block' />
-                </button>
+                <Link href="#works">
+                    <button data-aos="fade-up" data-aos-delay="600" className="mt-6 px-10 py-4 bg-blue-800 hover:bg-blue-900 transition-all duration-300 cursor-pointer rounded-full text-lg font-medium">
+                        <span>See my work</span>
+                        <BsArrowRight className='w-5 h-5 ml-2 inline-block' />
+                    </button>
+                </Link>
             </div>
-        </div>
+        </section>
     )
 }
 

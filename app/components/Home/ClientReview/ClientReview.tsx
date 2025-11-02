@@ -23,7 +23,7 @@ const responsive = {
 };
 const ClientReview = () => {
     return (
-        <div className='pt-16 pb-16'>
+        <section id="testimonials" className='scroll-mt-24 pt-16 pb-16'>
             <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
                 Kind words from satisfied <br />
                 <span className='text-cyan-200'>clients</span>
@@ -38,14 +38,14 @@ const ClientReview = () => {
                     infinite={true}
                     autoPlay={true}
                     autoPlaySpeed={4000}
-                    // keyBoardControl={true}
-                    // customTransition="all .5"
-                    // transitionDuration={500}
-                    // containerClass="carousel-container"
-                    // removeArrowOnDeviceType={["tablet", "mobile"]}
-                    // deviceType={this.props.deviceType}
-                    // dotListClass="custom-dot-list-style"
-                    // itemClass="carousel-item-padding-40-px"
+                // keyBoardControl={true}
+                // customTransition="all .5"
+                // transitionDuration={500}
+                // containerClass="carousel-container"
+                // removeArrowOnDeviceType={["tablet", "mobile"]}
+                // deviceType={this.props.deviceType}
+                // dotListClass="custom-dot-list-style"
+                // itemClass="carousel-item-padding-40-px"
                 >
                     <ClientReviewCard
                         image="/images/c1.png"
@@ -74,8 +74,7 @@ const ClientReview = () => {
                     />
                 </Carousel>;
             </div>
-
-        </div>
+        </section>
     )
 }
 
