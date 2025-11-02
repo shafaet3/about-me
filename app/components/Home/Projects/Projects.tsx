@@ -10,7 +10,7 @@ const Projects = () => {
         
        <div className='w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16'>
          {/* project section */}
-         <div>
+         <div data-aos="fade-up" data-aos-anchor-placement="top-center">
             <Image
                 src='/images/p1.jpg'
                 alt='img'
@@ -26,7 +26,7 @@ const Projects = () => {
             </h1>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
             <Image
                 src='/images/p2.jpg'
                 alt='img'
@@ -42,7 +42,7 @@ const Projects = () => {
             </h1>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
             <Image
                 src='/images/p3.jpg'
                 alt='img'
@@ -58,7 +58,7 @@ const Projects = () => {
             </h1>
         </div>
 
-        <div>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
             <Image
                 src='/images/p4.jpg'
                 alt='img'
