@@ -1,6 +1,6 @@
 "use client";
 
-import { Navlinks } from "@/app/constant/constant";
+import { NAV_LINKS } from "@/app/constant/constant";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { BiDownload } from "react-icons/bi";
@@ -78,7 +78,7 @@ useEffect(() => {
 
         {/* Nav Links */}
         <div className="hidden lg:flex items-center space-x-10">
-          {Navlinks.map((link) => (
+          {NAV_LINKS.map((link) => (
             <Link
               key={link.id}
               href={link.url}
@@ -96,10 +96,16 @@ useEffect(() => {
 
         {/* CV + Mobile Menu */}
         <div className="flex items-center space-x-4">
-          <button className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 text-white hover:bg-blue-900 transition-all duration-300 flex items-center space-x-2">
+         
+           <Link href="https://drive.google.com/file/d/1rzftqHr4kSJoq_G1aUBUyr7VUpsTH293/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 text-white hover:bg-blue-900 transition-all duration-300 flex items-center space-x-2">
             <BiDownload className="w-5 h-5" />
             <span>Download CV</span>
           </button>
+           </Link>
+
+
+          
           <HiBars3BottomRight
             onClick={openNav}
             className="w-8 h-8 text-white lg:hidden cursor-pointer"

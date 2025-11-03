@@ -10,7 +10,7 @@ const Resume = () => {
         {/* WORK PART */}
         <div>
             <h1 className="text-3xl sm:text-4xl font-bold text-white">
-                My Work <span className='text-cyan-200'>Experience</span>
+                My Work <span className='text-cyan-300'>Experience</span>
             </h1>
             <div className="mt-10" data-aos="zoom-in" data-aos-anchor-placement="top-center">
                 <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
@@ -21,7 +21,7 @@ const Resume = () => {
         {/* EDUCATION PART */}
         <div>
             <h1 className="text-3xl sm:text-4xl font-bold text-white">
-                My <span className='text-cyan-200'>Education</span>
+                My <span className='text-cyan-300'>Education</span>
             </h1>
             <div className="mt-10" data-aos="zoom-in" data-aos-anchor-placement="top-center" data-aos-delay="300">
                 <ResumeCard Icon={FaIdBadge} role="Bachelor's in Computer Science" date="Jan 2015 - Dec 2019" />

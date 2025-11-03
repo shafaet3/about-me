@@ -1,4 +1,4 @@
-import { Navlinks } from '@/app/constant/constant'
+import { NAV_LINKS } from '@/app/constant/constant'
 import Link from 'next/link'
 import React from 'react'
 import { CgClose } from 'react-icons/cg'
@@ -16,9 +16,9 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
     <div>
       {/* Overlay */}
       <div className={`fixed inset-0 ${navOpen} transform transition-all right-0 duration-500 z=[100002] bg-black opacity-70 w-full h-screen`}></div>
-      {/* Navlinks */}
+      {/* NAV_LINKS */}
       <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 z-[100050] right-0`}>
-        {Navlinks.map((link) => (
+        {NAV_LINKS.map((link) => (
           <Link
             key={link.id}
             href={link.url}
