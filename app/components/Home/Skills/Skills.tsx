@@ -33,8 +33,7 @@ const Skills = () => {
                             <div className="text-5xl mb-4">
                                 <Image src={`${skill.icon}`} width={50} height={50} alt={`${skill.name} logo`} />
                             </div>
-                            <p className='text-2xl font-semibold'>{skill.percentage}%</p>
-                            <p className='text-purple-400 mt-1'>{skill.name}</p>
+                            <p className='text-white mt-1'>{skill.name}</p>
                         </div>
                     </Tilt>
                 ))}
