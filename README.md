@@ -1,10 +1,6 @@
 # Shafaet's Personal Portfolio Website
 
 <p align="center">
-  <img src="public/images/globe.svg" width="80" alt="Portfolio Logo" />
-</p>
-
-<p align="center">
   <b>A modern, fully responsive personal portfolio built with Next.js (App Router), React 19, and Tailwind CSS 4.</b><br/>
   Showcasing skills, projects, and contact information with smooth animations and an elegant design.
 </p>
