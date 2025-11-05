@@ -22,9 +22,7 @@
 ## 🖼️ Preview 
 > 🔗 **Live Demo:** [https://shafaet-portfolio.vercel.app/](https://shafaet-portfolio.vercel.app/)  
 >  
-> ![Portfolio Preview]([https://via.placeholder.com/1000x500?text=Portfolio+Preview](https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG))
-
----
+> ![Portfolio Preview]([https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG])(https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG))
 
 ---
 
@@ -137,8 +135,6 @@ portfolio/
 ├── tsconfig.json
 └── README.md
 ```
-
-
 ---
 
 ## 🧩 Scripts
@@ -173,13 +169,7 @@ portfolio/
    npm run build
    npm start
    ```
-
-🧠 Future Enhancements
-🌙 Dark Mode toggle
-🌍 Multi-language support (i18n)
-💬 Contact form integration (EmailJS / Nodemailer)
-📈 Project analytics
-
+   
 ---
 
 ## 🧰 Tech Stack
@@ -199,5 +189,4 @@ portfolio/
 - ⚡ **Shafaet**   
 - 🎨 **Software Engineer | Frontend Developer | Creator of this portfolio**  
 - 📧 **shafaet3@gmail.com**    
-- 💻 **🪄 License**
-- This project is open-source under the MIT License. 
+- 💻 **🪄 License** - This project is open-source under the MIT License. 
