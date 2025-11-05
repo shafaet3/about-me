@@ -22,7 +22,7 @@
 ## 🖼️ Preview 
 > 🔗 **Live Demo:** [https://shafaet-portfolio.vercel.app/](https://shafaet-portfolio.vercel.app/)  
 >  
-> ![Portfolio Preview](https://via.placeholder.com/1000x500?text=Portfolio+Preview)
+> ![Portfolio Preview]([https://via.placeholder.com/1000x500?text=Portfolio+Preview](https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG))
 
 ---
 
@@ -78,7 +78,7 @@
 ## 🧱 Project Structure
 
 Project uses **Next.js App Router**, organized into clean modular components:
-
+```bash
 portfolio/
 ├── app/ # Next.js App Router directory
 │ ├── components/ # Reusable UI components
@@ -136,7 +136,7 @@ portfolio/
 ├── tailwind.config.js
 ├── tsconfig.json
 └── README.md
-
+```
 
 
 ---
@@ -180,10 +180,24 @@ portfolio/
 💬 Contact form integration (EmailJS / Nodemailer)
 📈 Project analytics
 
-👨‍💻 Author
-Shafaet
-Software Engineer | Frontend Developer | Creator of this portfolio
-📧 shafaet3@gmail.com
+---
 
-🪄 License
-This project is open-source under the MIT License.
+## 🧰 Tech Stack
+
+| 🧠 | Future Enhancements |
+|-----------|-------------|
+| 🌙 | Dark Mode toggle |
+| 🌍 | Multi-language support (i18n) |
+| 💬 | Contact form integration (EmailJS / Nodemailer) |
+| 📈 | Project analytics |
+
+
+---
+
+## 👨‍💻 Author
+
+- ⚡ **Shafaet**   
+- 🎨 **Software Engineer | Frontend Developer | Creator of this portfolio**  
+- 📧 **shafaet3@gmail.com**    
+- 💻 **🪄 License**
+- This project is open-source under the MIT License. 
