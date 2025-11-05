@@ -22,7 +22,7 @@
 ## 🖼️ Preview 
 > 🔗 **Live Demo:** [https://shafaet-portfolio.vercel.app/](https://shafaet-portfolio.vercel.app/)  
 >  
-> ![Portfolio Preview]([https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG])(https://github.com/shafaet3/about-me/blob/main/preview_portfolio.PNG))
+> ![Portfolio Preview](/preview_portfolio.PNG)
 
 ---
 
@@ -189,4 +189,4 @@ portfolio/
 - ⚡ **Shafaet**   
 - 🎨 **Software Engineer | Frontend Developer | Creator of this portfolio**  
 - 📧 **shafaet3@gmail.com**    
-- 💻 **🪄 License** - This project is open-source under the MIT License. 
+- 💻 **License** - This project is open-source under the MIT License. 
